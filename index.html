@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.jpeg" />
+    <!-- Title -->
+    <title>Anime Blog</title>
+
+    <!-- Meta tag for SEO -->
+    <meta name="title" content="Anime Blog" />
+    <meta name="discription" content="About" />
+    <meta name="keywords" content="Anime, Anime Blog, Latest Anime" />
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body class="container-fluid bg-black">
+    <!-- Nav Bar -->
+    <nav class="navbar bg-dark border-bottm boorder-body navbar-expand-lg fixed-top bg-body-tertiary shadow-lg p-1 mb-5 mt-3 mx-3 bg-body rounded" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a href=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-center" href="#carousel">Latest</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="#content">All</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="#about">Most Popular</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="#contact">Contact Form</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section Carousel -->
+    <div id="carousel" class="carousel carousel-dark slide"  data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="images/One Piece.avif" class="d-block w-100" alt="One Piece">
+            <div class="carousel-caption d-none d-md-block">
+              <p class="d-inline-flex gap-1">
+                <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  One Piece
+                </button>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body bg-dark text-light">
+                  Embark on a voyage of a lifetime with One Piece. The epic anime series created by renowned mangaka Eiichiro Oda is a global phenomenon, captivating the hearts of fans across generations throughout its 25-year span. This thrilling high seas adventure is filled with unwavering friendship, epic battles for freedom, and the relentless pursuit of dreams. Join Monkey D. Luffy and his lovable pirate crew as they discover the true meaning of power and justice in this great pirate era.
+
+                  Monkey D. Luffy refuses to let anyone or anything stand in the way of his quest to become King of the Pirates. With his rubber-like stretching powers granted by the supernatural Devil Fruit, the spirited young pirate seeks the legendary treasure known as the One Piece. He’ll chart a course for the treacherous waters of the Grand Line and recruit a motley crew to build his Straw Hat Pirates one bond at a time. This is one captain who’ll never drop anchor until he and his friends all reach their dreams!
+                  
+                  One Piece boasts more than 1100 episodes. Currently in the Egghead Arc, the Straw Hats finally meet the long awaited Dr. Vegapunk on Egghead Island. Crunchyroll is home to every subbed episode and also every English dubbed episode, with over 1000 and counting. In addition, One Piece has 13 television specials and 15 movies, with the latest, One Piece Film Red, being the highest-grossing film in the franchise. One Piece is produced by Toei Animation.                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/Dragon Ball Super.avif" class="d-block w-100" alt="Dragon Ball Super">
+            <div class="carousel-caption d-none d-md-block">
+              <p class="d-inline-flex gap-1">
+                <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                  Dragon Ball Super
+                </button>
+              </p>
+              <div class="collapse" id="collapseExample2">
+                <div class="card card-body bg-dark text-light">
+                  After 18 years, we have the newest Dragon Ball story from creator Akira Toriyama.
+                  With Majin Buu defeated, Goku has taken a completely new role as...a radish farmer?! With Earth at peace, our heroes have settled into normal lives. But they can’t get too comfortable. Far away, the powerful God of Destruction, Beerus, awakens to a prophecy revealing his demise at the hands of an even more formidable being. When his search for the Saiyan God brings him to Earth, can Goku and his friends take on their strongest foe yet?                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/Haikyu.avif" class="d-block w-100" alt="Haikyu!!">
+            <div class="carousel-caption d-none d-md-block">
+              <p class="d-inline-flex gap-1">
+                <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                  Haikyu!!
+                </button>
+              </p>
+              <div class="collapse" id="collapseExample3">
+                <div class="card card-body bg-dark text-light">
+                  Based off of the original Weekly Shonen Jump manga series from Haruichi Furudate, Haikyu!! is a slice-of-life sports anime revolving around Shoyo Hinata’s love of volleyball. Inspired by a small-statured pro volleyball player, Hinata creates a volleyball team in his last year of middle school. Unfortunately the team is matched up against the "King of the Court" Tobio Kageyama’s team in their first tournament and inevitably lose. After the crushing defeat, Hinata vows to surpass Kageyama After entering high school, Hinata joins the volleyball team only to find that Tobio has also joined.                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Content -->
+    <div class="row pt-5 px-5" id="content" >
+      <h5 class="text-light fs-1 fst-bold text-center pt-3">All</h5>
+      <div class="col-md-4 col-sm-12 pb-5">
+        <div class="card mx-auto bg-dark h-100 d-inline-block shadow-lg p-3 mb-5 rounded">
+          <img src="images/BLUE LOCK.avif" class="card-img-top" alt="BLUE LOCK">
+          <div class="card-body">
+            <h5 class="card-title text-light">BLUE LOCK</h5>
+            <p class="card-text text-light fs-6 fst-normal">Japan’s desire for World Cup glory leads the Japanese Football Association to launch a new rigorous training program to find the national team’s next striker. Three hundred high school players are pitted against each other for the position, but only one will come out on top. Who among them will be the striker to usher in a new era of Japanese soccer?</p>
+            <a href="#content" class="btn btn-secondary">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 pb-5">
+        <div class="card mx-auto bg-dark h-100 d-inline-block shadow-lg p-3 mb-5 rounded">
+          <img src="images/Chainsaw Man.avif" class="card-img-top" alt="Chainsaw Man">
+          <div class="card-body">
+            <h5 class="card-title text-light">Chainsaw Man</h5>
+            <p class="card-text text-light fs-6 fst-normal">Denji is a young boy who works as a Devil Hunter with the “Chainsaw Devil” Pochita.
+              One day, as he was living his miserable life trying to pay off the debt he inherited from his parents, he got betrayed and killed. As he was losing his consciousness, he made a deal with Pochita, and got resurrected as the “Chainsaw Man”: the owner of the Devil’s heart.</p>
+            <a href="#content" class="btn btn-secondary">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 pb-5">
+        <div class="card mx-auto bg-dark h-100 d-inline-block shadow-lg p-3 mb-5 rounded">
+          <img src="images/Kaiju No. 8.avif" class="card-img-top" alt="Kaiju No. 8">
+          <div class="card-body">
+            <h5 class="card-title text-light">Kaiju No. 8</h5>
+            <p class="card-text text-light fs-6 fst-normal">Kaiju No. 8 is one of the most popular serialized manga published on Shonen Jump+ in recent years—a refreshing blend of action, comedy, and adventure. While readers initially drew connections between Kaiju No. 8 and series like Attack on Titan, Chainsaw Man, and One-Punch Man, fans soon fell in love with its unique elements, art style, and protagonist.</p>
+            <a href="#content" class="btn btn-secondary">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 pb-5">
+        <div class="card mx-auto bg-dark h-100 d-inline-block shadow-lg p-3 mb-5 rounded">
+          <img src="images/One-Punch Man.avif" class="card-img-top" alt="One-Punch Man">
+          <div class="card-body">
+            <h5 class="card-title text-light">One-Punch Man</h5>
+            <p class="card-text text-light fs-6 fst-normal">Saitama started out being a hero just for fun. After three years of “special” training, he became so powerful that he can defeat opponents with a single punch. Now, alongside
+              Genos, his faithful cyborg disciple, Saitama is ready to begin his official duties as a professional hero working with the Hero Association.</p>
+            <a href="#content" class="btn btn-secondary">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 pb-5">
+        <div class="card mx-auto bg-dark h-100 d-inline-block shadow-lg p-3 mb-5 rounded">
+          <img src="images/The Daily Life of the Immortal King.avif" class="card-img-top" alt="The Daily Life of the Immortal King">
+          <div class="card-body">
+            <h5 class="card-title text-light">The Daily Life of the Immortal King</h5>
+            <p class="card-text text-light fs-6 fst-normal">For cultivation prodigy Wang Ling, defeating a demon king at age 6 is nothing compared to fitting in at highschool. And now with supernatural threats on the rise, Wang may have to put his magic studies on hold to save the world!</p>
+            <a href="#content" class="btn btn-secondary">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 pb-5">
+        <div class="card mx-auto bg-dark h-100 d-inline-block shadow-lg p-3 mb-5 rounded">
+          <img src="images/Hitori No Shita - The Outcast.avif" class="card-img-top" alt="Hitori No Shita - The Outcast">
+          <div class="card-body">
+            <h5 class="card-title text-light">Hitori No Shita - The Outcast</h5>
+            <p class="card-text text-light fs-6 fst-normal">The protagonist, Cho Soran, leads a very common college student’s life until he finds himself caught up in a terrible incident that happened in a small village. As he was walking through a graveyard, Cho Soran is assaulted by zombies. Thinking that it was over for him, a mysterious girl carrying a sword suddenly saves him and disappears.</p>
+            <a href="#content" class="btn btn-secondary">Read more</a>
+          </div>
+        </div>
+      </div>
+      <a href="#content" class="btn btn-secondary">See more</a>
+    </div>
+
+    <!-- About -->
+    <div class="row pt-5 px-5" id="about">
+      <h5 class="text-light fs-1 fst-bold text-center pt-3 pb-3">Most Popular</h5>
+      <div class="row pb-5">
+        <div class="col-6">
+          <img src="images/One Piece.avif" class="card-img-top" alt="One Piece">
+        </div>
+        <div class="col-6 p-3">
+          <h5 class="text-light fs-1 fst-bold">One Piece</h5>
+          <p class="text-light fs-6 fst-normal">Embark on a voyage of a lifetime with One Piece. The epic anime series created by renowned mangaka Eiichiro Oda is a global phenomenon, captivating the hearts of fans across generations throughout its 25-year span. This thrilling high seas adventure is filled with unwavering friendship, epic battles for freedom, and the relentless pursuit of dreams. Join Monkey D. Luffy and his lovable pirate crew as they discover the true meaning of power and justice in this great pirate era.</p>
+          <a href="#content" class="btn btn-secondary">Read more</a>
+        </div>
+      </div>
+      <div class="row pb-5">
+        <div class="col-6">
+          <img src="images/BLUE LOCK.avif" class="card-img-top" alt="BLUE LOCK">
+        </div>
+        <div class="col-6 p-3">
+          <h5 class="text-light fs-1 fst-bold">BLUE LOCK</h5>
+          <p class="text-light fs-6 fst-normal">Japan’s desire for World Cup glory leads the Japanese Football Association to launch a new rigorous training program to find the national team’s next striker. Three hundred high school players are pitted against each other for the position, but only one will come out on top. Who among them will be the striker to usher in a new era of Japanese soccer?</p>
+          <a href="#content" class="btn btn-secondary">Read more</a>
+        </div>
+      </div>
+      <div class="row pb-5">
+        <div class="col-6">
+          <img src="images/Tower of God.avif" class="card-img-top" alt="Tower of God">
+        </div>
+        <div class="col-6 p-3">
+          <h5 class="text-light fs-1 fst-bold">Tower of God</h5>
+          <p class="text-light fs-6 fst-normal">Reach the top, and everything will be yours. At the top of the tower exists everything in this world, and all of it can be yours. You can become a god. This is the story of the beginning and the end of Rachel, the girl who climbed the tower so she could see the stars, and Bam, the boy who needed nothing but her</p>
+          <a href="#content" class="btn btn-secondary">Read more</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="row pt-5 px-5" id="contact">
+      <h5 class="text-light fs-1 fst-bold text-center pt-3 pb-3">Contact Form</h5>
+      <form class="bg-body-tertiary d-inline-block shadow-lg p-3 mb-5 rounded">
+        <div class="mb-3">
+          <label for="exampleFormControlInput" class="form-label">Name</label>
+          <input type="text" class="form-control" id="exampleFormControlInput" placeholder="Jon Korner">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="jonkorner@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+          </svg>
+        </a>
+        <span class="text-light-emphasis">© 2024 Anime Blog, Info</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-muted" href="https://www.crunchyroll.com/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+              <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
+            </svg>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+              <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
+            </svg>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+              <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+            </svg>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+            </svg>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
